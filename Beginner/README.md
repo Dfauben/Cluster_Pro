@@ -41,7 +41,7 @@ Al terminar este modulo deberias poder:
 
 <br>
 
-[<img src="./img/beginner_00_fundamentos.png" alt="Fundamentos del cluster" width="1280" height="160">](00_Fundamentos/README.md)
+[<img src="../rsc/img/banner_template.png" alt="Fundamentos del cluster" width="1280" height="160">](00_Fundamentos/README.md)
 
 ### Fundamentos del cluster
 
@@ -52,7 +52,7 @@ Base del cluster: contexto, nodos, namespaces, pods, servicios y recursos API.
 <br>
 <br>
 
-[<img src="./img/beginner_01_kubectl_operacion.png" alt="Operacion diaria con kubectl" width="1280" height="160">](01_Kubectl_Operacion/README.md)
+[<img src="../rsc/img/banner_template.png" alt="Operacion diaria con kubectl" width="1280" height="160">](01_Kubectl_Operacion/README.md)
 
 ### Operacion diaria con kubectl
 
@@ -63,7 +63,7 @@ Operacion diaria con `kubectl`: listar, describir, labels, eventos y vistas pers
 <br>
 <br>
 
-[<img src="./img/beginner_02_workloads_basicos.png" alt="Primeros deployments y servicios" width="1280" height="160">](02_Workloads_Basicos/README.md)
+[<img src="../rsc/img/banner_template.png" alt="Primeros deployments y servicios" width="1280" height="160">](02_Workloads_Basicos/README.md)
 
 ### Primeros deployments y servicios
 
@@ -74,7 +74,7 @@ Crear deployment, exponer service, escalar replicas y validar rollout.
 <br>
 <br>
 
-[<img src="./img/beginner_03_debug_operativo.png" alt="Debug operativo inicial" width="1280" height="160">](03_Debug_Operativo/README.md)
+[<img src="../rsc/img/banner_template.png" alt="Debug operativo inicial" width="1280" height="160">](03_Debug_Operativo/README.md)
 
 ### Debug operativo inicial
 

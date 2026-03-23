@@ -333,3 +333,6 @@ Estandar de indice aplicado en submodulos Beginner:
 - Formato comun:
   - enlace al `Modulo Beginner`
   - lista anidada con todos los submodulos del modulo
+
+Placeholder temporal de banners:
+- En `Beginner/README.md`, los 4 banners de submodulo ahora apuntan a `../rsc/img/banner_template.png`.
