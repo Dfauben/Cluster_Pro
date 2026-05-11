@@ -1,5 +1,11 @@
 # kubectl logs
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 `kubectl logs` permite leer logs de contenedores dentro de pods.

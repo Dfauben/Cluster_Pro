@@ -1,5 +1,11 @@
 # Contexto de kubectl
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Un `context` define con que cluster, usuario y namespace trabaja `kubectl` por defecto.

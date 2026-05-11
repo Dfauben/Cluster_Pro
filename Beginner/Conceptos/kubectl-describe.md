@@ -1,5 +1,11 @@
 # kubectl describe
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 `kubectl describe` es un comando de inspeccion detallada para un recurso especifico.
@@ -20,7 +26,7 @@
 ## Comandos utiles
 
 ```bash
-kubectl describe node lab-k8s-control-plane
+kubectl describe node kind-lab-k8s-control-plane
 kubectl describe pod <pod-name> -n <namespace>
 kubectl describe deployment <deployment-name> -n <namespace>
 ```

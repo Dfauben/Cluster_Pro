@@ -1,5 +1,11 @@
 # API de Kubernetes
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 La API de Kubernetes es la interfaz central del cluster.

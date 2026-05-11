@@ -1,5 +1,11 @@
 # Namespace
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Un `namespace` separa recursos logicamente dentro del mismo cluster.

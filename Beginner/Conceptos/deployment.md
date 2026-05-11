@@ -1,5 +1,11 @@
 # Deployment
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Un `deployment` es un controlador declarativo para pods.

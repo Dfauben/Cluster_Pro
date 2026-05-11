@@ -1,5 +1,11 @@
 # Control Plane
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 El `control-plane` es el cerebro del cluster. Decide y coordina lo que debe ocurrir.
@@ -99,10 +105,10 @@ En `kind`, estos componentes suelen verse como pods en `kube-system`.
 kubectl get pods -n kube-system
 kubectl get pods -n kube-system -o wide
 kubectl get pods -n kube-system | rg 'kube-apiserver|etcd|kube-scheduler|kube-controller-manager'
-kubectl logs -n kube-system kube-apiserver-lab-k8s-control-plane
-kubectl logs -n kube-system etcd-lab-k8s-control-plane
-kubectl logs -n kube-system kube-scheduler-lab-k8s-control-plane
-kubectl logs -n kube-system kube-controller-manager-lab-k8s-control-plane
+kubectl logs -n kube-system kube-apiserver-kind-lab-k8s-control-plane
+kubectl logs -n kube-system etcd-kind-lab-k8s-control-plane
+kubectl logs -n kube-system kube-scheduler-kind-lab-k8s-control-plane
+kubectl logs -n kube-system kube-controller-manager-kind-lab-k8s-control-plane
 ```
 
 Nota:

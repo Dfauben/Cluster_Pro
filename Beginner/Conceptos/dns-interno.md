@@ -1,5 +1,11 @@
 # DNS interno (CoreDNS)
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Kubernetes usa `CoreDNS` para resolver nombres de servicios y pods dentro del cluster.

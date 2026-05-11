@@ -1,5 +1,11 @@
 # Pod
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 El `pod` es la unidad minima desplegable en Kubernetes.

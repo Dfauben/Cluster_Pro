@@ -1,5 +1,11 @@
 # DaemonSet
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Un DaemonSet asegura que exista un pod en cada nodo (o en un subconjunto seleccionado).

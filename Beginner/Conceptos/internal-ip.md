@@ -1,5 +1,11 @@
 # IP interna
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 La `internal IP` es la direccion interna usada dentro de la red del cluster o del host.

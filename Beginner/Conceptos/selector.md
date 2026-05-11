@@ -1,5 +1,11 @@
 # Selector
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Un selector es una regla de labels para elegir que recursos coinciden.

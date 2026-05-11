@@ -1,5 +1,11 @@
 # Cluster
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Un `cluster` de Kubernetes es el conjunto completo:

@@ -1,5 +1,11 @@
 # Replicas
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que son
 
 Las replicas son la cantidad deseada de pods para una aplicacion.

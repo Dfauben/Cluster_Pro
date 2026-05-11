@@ -1,5 +1,11 @@
 # Labels
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que son
 
 Las labels son pares `clave=valor` que describen y organizan recursos de Kubernetes.

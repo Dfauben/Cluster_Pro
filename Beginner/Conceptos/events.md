@@ -1,5 +1,11 @@
 # Events
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que son
 
 Los events son mensajes de diagnostico que Kubernetes registra cuando ocurre algo relevante sobre un recurso.

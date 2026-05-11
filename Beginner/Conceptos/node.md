@@ -1,5 +1,11 @@
 # Node
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Beginner](../README.md)
+- [Indice de conceptos](README.md)
+
 ## Que es
 
 Un `node` es una maquina (virtual o fisica) donde Kubernetes ejecuta pods.
@@ -19,7 +25,7 @@ Un `node` es una maquina (virtual o fisica) donde Kubernetes ejecuta pods.
 
 ```bash
 kubectl get nodes -o wide
-kubectl describe node lab-k8s-control-plane
+kubectl describe node kind-lab-k8s-control-plane
 kubectl top node
 ```
 
