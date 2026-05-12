@@ -1,5 +1,14 @@
 # Beginner 05 - Configuracion basica
 
+
+## Navegacion
+
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](README.md)
+- [➡️ Siguiente](02_lab.md)
+
 En Kubernetes, la configuracion no deberia quedar incrustada a fuego dentro de la aplicacion. Lo normal es separar lo que cambia de lo que ejecuta, y por eso existen `ConfigMap` y `Secret`.
 
 **[IMAGEN ASCII - reemplazar por imagen]**
@@ -48,3 +57,6 @@ app
 > **[PROMPT IMAGEN - generar fuera del repo]**
 > Genera un diagrama didáctico sobre ConfigMap y Secret en Kubernetes. Debe mostrar una imagen de aplicación recibiendo configuración externa, con cajas separadas para ConfigMap y Secret y flechas hacia el Pod. Estilo limpio, educativo y sin ruido visual.
 
+## ➡️ Siguiente
+
+Continua con [Practica guiada](02_lab.md).

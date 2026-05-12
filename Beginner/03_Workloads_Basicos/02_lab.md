@@ -2,11 +2,11 @@
 
 ## Navegacion
 
-- [Inicio del repositorio](../../README.md)
-- [Inicio de Beginner](../README.md)
-- [Indice del modulo](README.md)
-- [Anterior](01_teoria.md)
-- [Siguiente](03_scenario.md)
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](01_teoria.md)
+- [➡️ Siguiente](../04_Services_Exposicion/README.md)
 
 ## Contexto
 
@@ -59,3 +59,6 @@ crear -> observar -> exponer -> escalar -> verificar
 ## Criterio de salida
 
 La practica queda resuelta cuando puedes crear la app, verla nacer, exponerla internamente y dejarla en tres replicas con un rollout correcto.
+## ➡️ Siguiente
+
+Continua con [Services y exposicion basica](../04_Services_Exposicion/README.md).

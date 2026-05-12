@@ -2,11 +2,11 @@
 
 ## Navegacion
 
-- [Inicio del repositorio](../../README.md)
-- [Inicio de Beginner](../README.md)
-- [Indice del modulo](README.md)
-- [Anterior](01_teoria.md)
-- [Siguiente](03_scenario.md)
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](01_teoria.md)
+- [➡️ Siguiente](../07_Debug_Operativo/README.md)
 
 ## Contexto
 
@@ -87,4 +87,6 @@ pvc -> volumen -> pod -> dato
 ## Criterio de salida
 
 La practica queda resuelta cuando sabes pedir almacenamiento, montarlo en un pod y comprobar que el dato vive en el volumen y no solo en la ejecucion del contenedor.
+## ➡️ Siguiente
 
+Continua con [Debug operativo inicial](../07_Debug_Operativo/README.md).

@@ -2,11 +2,11 @@
 
 ## Navegacion
 
-- [Inicio del repositorio](../../README.md)
-- [Inicio de Beginner](../README.md)
-- [Indice del modulo](README.md)
-- [Anterior](01_teoria.md)
-- [Siguiente](03_scenario.md)
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](01_teoria.md)
+- [➡️ Siguiente](../06_Almacenamiento_Basico/README.md)
 
 ## Contexto
 
@@ -52,4 +52,6 @@ config -> pod -> comportamiento
 ## Criterio de salida
 
 La practica queda resuelta cuando sabes crear configuracion separada, verla en Kubernetes y comprobar que el pod la consume sin rehacer la imagen.
+## ➡️ Siguiente
 
+Continua con [Almacenamiento basico](../06_Almacenamiento_Basico/README.md).

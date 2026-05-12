@@ -1,5 +1,14 @@
 # Beginner 04 - Services y exposicion basica
 
+
+## Navegacion
+
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](README.md)
+- [➡️ Siguiente](02_lab.md)
+
 Un [`Service`](../Conceptos/service.md) es la capa que mantiene una entrada estable hacia un conjunto de [pods](../Conceptos/pod.md). Los pods pueden cambiar, recrearse o escalar, pero el acceso no deberia romperse por eso.
 
 **[IMAGEN ASCII - reemplazar por imagen]**
@@ -45,3 +54,7 @@ service
 
 > **[PROMPT IMAGEN - generar fuera del repo]**
 > Genera un diagrama didáctico sobre Kubernetes Service como punto de acceso estable. Debe mostrar un cliente apuntando a un Service, el selector del Service y varios Pods detras. Estilo limpio, educativo, fondo simple y sin ruido visual.
+
+## ➡️ Siguiente
+
+Continua con [Practica guiada](02_lab.md).

@@ -1,5 +1,14 @@
 # Beginner 07 - Debug operativo inicial
 
+
+## Navegacion
+
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](README.md)
+- [➡️ Siguiente](02_lab.md)
+
 Debug operativo es aprender a mirar un fallo sin reaccionar por impulso. En Beginner no buscas resolver incidencias complejas; buscas reconocer la primera evidencia util, entender el estado del [pod](../Conceptos/pod.md) y decidir si reiniciar ayuda o solo tapa el problema.
 
 **[IMAGEN ASCII - reemplazar por imagen]**
@@ -38,3 +47,7 @@ evidencia -> contexto -> pista extra -> decision
 
 > **[PROMPT IMAGEN - generar fuera del repo]**
 > Genera un diagrama didáctico sobre troubleshooting básico en Kubernetes. Debe mostrar la secuencia `logs -> describe -> events -> decision`, con pocas cajas, flechas claras y estilo limpio. Fondo simple, educativo y sin ruido visual.
+
+## ➡️ Siguiente
+
+Continua con [Practica guiada](02_lab.md).

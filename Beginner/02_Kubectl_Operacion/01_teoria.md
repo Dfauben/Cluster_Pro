@@ -1,5 +1,14 @@
 # Beginner 02 - Operacion diaria con kubectl
 
+
+## Navegacion
+
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](README.md)
+- [➡️ Siguiente](02_lab.md)
+
 [`kubectl`](../Conceptos/kubectl-context.md) no es una lista de trucos. Es la forma mas directa de preguntarle al cluster que esta pasando. Cuando aprendes a usarlo bien, dejas de mirar pantallas completas y empiezas a leer solo lo que importa.
 
 **[IMAGEN ASCII - reemplazar por imagen]**
@@ -48,3 +57,7 @@ columns    -> como lo quiero ver
 
 > **[PROMPT IMAGEN - generar fuera del repo]**
 > Genera un diagrama didáctico sobre `kubectl` como herramienta de lectura del cluster. Debe mostrar el flujo usuario -> kubectl -> API server -> recursos, y una segunda capa con `get`, `describe`, `labels/selectors` y `custom-columns`. Estilo limpio, educativo, fondo simple y sin ruido visual.
+
+## ➡️ Siguiente
+
+Continua con [Practica guiada](02_lab.md).

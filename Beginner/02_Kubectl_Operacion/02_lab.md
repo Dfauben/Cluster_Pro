@@ -2,11 +2,11 @@
 
 ## Navegacion
 
-- [Inicio del repositorio](../../README.md)
-- [Inicio de Beginner](../README.md)
-- [Indice del modulo](README.md)
-- [Anterior](01_teoria.md)
-- [Siguiente](03_scenario.md)
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](01_teoria.md)
+- [➡️ Siguiente](../03_Workloads_Basicos/README.md)
 
 ## Contexto
 
@@ -61,3 +61,6 @@ get all -> labels -> describe -> selector
 ## Criterio de salida
 
 Si sabes usar `get` para ubicarte, `describe` para bajar al detalle y `-l` para filtrar sin perderte, la practica esta resuelta.
+## ➡️ Siguiente
+
+Continua con [Primeros deployments y servicios](../03_Workloads_Basicos/README.md).

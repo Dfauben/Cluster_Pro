@@ -1,5 +1,14 @@
 # Beginner 03 - Primeros deployments y servicios
 
+
+## Navegacion
+
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](README.md)
+- [➡️ Siguiente](02_lab.md)
+
 Cuando creas una aplicacion en Kubernetes, no piensas solo en [pods](../Conceptos/pod.md). Piensas en el estado que quieres mantener, en cuantas copias necesitas y en como vas a acceder a ellas sin depender de una IP fragil.
 
 **[IMAGEN ASCII - reemplazar por imagen]**
@@ -51,3 +60,7 @@ app estable
 
 > **[PROMPT IMAGEN - generar fuera del repo]**
 > Genera un diagrama educativo sobre el ciclo de vida de una app en Kubernetes: `Deployment` -> `ReplicaSet` -> `Pods`, con un `Service` apuntando a los pods. Estilo limpio, pocas cajas, flechas claras y etiquetas sencillas, fondo simple y didáctico.
+
+## ➡️ Siguiente
+
+Continua con [Practica guiada](02_lab.md).

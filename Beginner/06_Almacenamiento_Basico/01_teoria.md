@@ -1,5 +1,14 @@
 # Beginner 06 - Almacenamiento basico
 
+
+## Navegacion
+
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](README.md)
+- [➡️ Siguiente](02_lab.md)
+
 Los pods no son un lugar seguro para guardar datos que deban sobrevivir a un reinicio. Por eso Kubernetes separa la ejecucion del almacenamiento persistente con `PV`, `PVC` y `StorageClass`.
 
 **[IMAGEN ASCII - reemplazar por imagen]**
@@ -47,3 +56,6 @@ app
 > **[PROMPT IMAGEN - generar fuera del repo]**
 > Genera un diagrama didáctico sobre almacenamiento persistente en Kubernetes. Debe mostrar un Pod pidiendo un PVC, un PV como volumen real y una StorageClass como forma de aprovisionamiento. Estilo limpio, educativo, fondo simple y sin ruido visual.
 
+## ➡️ Siguiente
+
+Continua con [Practica guiada](02_lab.md).

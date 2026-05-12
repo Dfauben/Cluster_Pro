@@ -2,11 +2,9 @@
 
 ## Navegacion
 
-- [Inicio del repositorio](../../README.md)
-- [Inicio de Beginner](../README.md)
-- [Setup Windows 10/11](../../setup/windows/README.md)
-- [Siguiente: 01 - Fundamentos del cluster](../01_Fundamentos/README.md)
-
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [➡️ Siguiente: 01 - Fundamentos del cluster](../01_Fundamentos/README.md)
 
 ## Proposito
 
@@ -129,6 +127,6 @@ Te piden llegar a un punto donde el resto del laboratorio ya no pelee con la bas
 
 Si no puedes explicar la diferencia entre fallo de instalacion, fallo de contexto y fallo de cluster, no conviene seguir.
 
-## Siguiente paso
+## ➡️ Siguiente
 
 Cuando termines, continua con [Beginner 01 - Fundamentos del cluster](../01_Fundamentos/README.md).

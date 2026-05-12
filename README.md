@@ -46,13 +46,14 @@ Estandar acordado para este repositorio:
 7. `Beginner/05_Configuracion_Basica`
 8. `Beginner/06_Almacenamiento_Basico`
 9. `Beginner/07_Debug_Operativo`
-10. `Intermediate/00_Cluster_y_Nodos`
-11. `Intermediate/01_Probes_Salud`
-12. `Intermediate/02_Recursos_y_Scheduling`
-13. `Intermediate/03_Networking_e_Ingress`
-14. `Intermediate/04_Storage_Persistencia`
-15. `Intermediate/05_Helm_Base`
-16. `Pro`
+10. `Beginner/08_Repaso_Integrador`
+11. `Intermediate/00_Cluster_y_Nodos`
+12. `Intermediate/01_Probes_Salud`
+13. `Intermediate/02_Recursos_y_Scheduling`
+14. `Intermediate/03_Networking_e_Ingress`
+15. `Intermediate/04_Storage_Persistencia`
+16. `Intermediate/05_Helm_Base`
+17. `Pro`
 
 ## Regla de trabajo
 

@@ -2,11 +2,11 @@
 
 ## Navegacion
 
-- [Inicio del repositorio](../../README.md)
-- [Inicio de Beginner](../README.md)
-- [Indice del modulo](README.md)
-- [Anterior](01_teoria.md)
-- [Siguiente](03_scenario.md)
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](01_teoria.md)
+- [➡️ Siguiente](../08_Repaso_Integrador/README.md)
 
 ## Contexto
 
@@ -56,3 +56,6 @@ logs -> describe -> events -> restart
 ## Criterio de salida
 
 La practica queda resuelta cuando sabes leer el fallo en orden y entiendes por que reiniciar antes de tiempo no arregla nada.
+## ➡️ Siguiente
+
+Continua con [Repaso integrador](../08_Repaso_Integrador/README.md).

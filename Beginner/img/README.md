@@ -1,11 +1,20 @@
-# Imagenes para Beginner README
+# Imagenes de Beginner
 
-Formato objetivo:
-- Submodulos: `1280 x 160 px`
+## Estructura
 
-Archivos esperados por `Beginner/README.md`:
-- `beginner_00_prerrequisitos.png`
-- `beginner_01_fundamentos.png`
-- `beginner_02_kubectl_operacion.png`
-- `beginner_03_workloads_basicos.png`
-- `beginner_04_debug_operativo.png`
+- `banners/` -> banners del README y de las portadas de modulo
+- `01_Fundamentos/` -> imagenes teoricas del modulo de Fundamentos
+
+## Formato objetivo
+
+- Banners de modulo: `1280 x 160 px`
+- Imagenes teoricas: `1280 x 640 px`
+
+## Archivos actuales
+
+### `banners/`
+- `banner_template.png`
+
+### `01_Fundamentos/`
+- `teo00.png`
+- `teo01.png`

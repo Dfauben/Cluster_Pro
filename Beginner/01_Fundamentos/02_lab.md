@@ -2,12 +2,11 @@
 
 ## Navegacion
 
-- [Inicio del repositorio](../../README.md)
-- [Inicio de Beginner](../README.md)
-- [Indice del modulo](README.md)
-- [Anterior](01_teoria.md)
-- [Siguiente](03_scenario.md)
-
+- [🏠 Inicio del repositorio](../../README.md)
+- [📘 Inicio de Beginner](../README.md)
+- [📑 Índice del módulo](README.md)
+- [⬅️ Anterior](01_teoria.md)
+- [➡️ Siguiente](../02_Kubectl_Operacion/README.md)
 
 ## Proposito
 
@@ -171,3 +170,6 @@ Si sabes agruparla por familia, ya puedes leer el cluster con orden.
 - ves `kube-system` y `default`
 - identificas componentes del control-plane
 - reconoces la familia de los recursos mas comunes
+## ➡️ Siguiente
+
+Continua con [Primeros comandos con kubectl](../02_Kubectl_Operacion/README.md).
