@@ -57,7 +57,9 @@ La [API de Kubernetes](../Conceptos/api-kubernetes.md) tambien forma parte de es
 
 
 La lectura correcta de este bloque es simple: no tienes que saberlo todo de memoria, pero sí tienes que saber dónde mirar. Si entiendes contexto, [nodos](../Conceptos/node.md), namespaces, pods, [services](../Conceptos/service.md) y [API](../Conceptos/api-kubernetes.md), ya tienes la base para entrar en el resto del lab sin ir a ciegas.
+
 <br>
+
 **Errores tipicos**
 
 - mirar solo pods y olvidar contexto y nodo
@@ -73,6 +75,7 @@ La lectura correcta de este bloque es simple: no tienes que saberlo todo de memo
 - `kubectl explain` es la referencia rapida cuando no recuerdas la forma de un recurso
 
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Practica guiada](02_lab.md).
