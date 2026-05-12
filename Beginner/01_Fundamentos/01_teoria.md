@@ -19,6 +19,7 @@ Antes de operar un [cluster](../Conceptos/cluster.md) necesitas aprender a leerl
 Si lo piensas desde la operacion diaria, el orden importa. Primero confirmas que el shell apunta al cluster correcto, porque si el contexto es equivocado todo lo demas queda contaminado. Luego miras los [nodos](../Conceptos/node.md) para saber si el cluster tiene una base sana. Despues separas el espacio de sistema del espacio de usuario con [namespaces](../Conceptos/namespace.md), y solo entonces miras los [pods](../Conceptos/pod.md) que realmente estan corriendo.
 
 <br>
+
 | Lo que miras                                    | Qué te responde                            | Por qué importa                                 |
 | ----------------------------------------------- | ------------------------------------------- | ------------------------------------------------ |
 | `kubectl config current-context`              | a que cluster hablas                        | evita leer el cluster equivocado                 |
@@ -27,6 +28,7 @@ Si lo piensas desde la operacion diaria, el orden importa. Primero confirmas que
 | `kubectl get pods -A`                         | que esta corriendo de verdad                | muestra la realidad operativa                    |
 | `kubectl get svc -A`                          | como se publica el acceso estable           | separa acceso de ejecucion                       |
 | `kubectl api-resources` / `kubectl explain` | que objetos existen y como se escriben      | te evita depender de memoria                     |
+
 <br>
 
 
@@ -42,6 +44,7 @@ Los otros namespaces ayudan a separar funciones. [`default`](../Conceptos/namesp
 La [API de Kubernetes](../Conceptos/api-kubernetes.md) tambien forma parte de esta fotografia. `api-resources` te dice que tipos de objeto existen y si viven dentro de un namespace o a nivel cluster. [`explain`](../Conceptos/api-kubernetes.md) te muestra la forma del objeto, que es justo lo que necesitas cuando no recuerdas un campo de un YAML. Eso es mas util que intentar memorizar la sintaxis completa desde el principio.
 
 <br>
+
 | Familia                 | Ejemplos                                                                                                                                             | Qué debes reconocer                          |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | Computo                 | [`pods`](../Conceptos/pod.md), [`nodes`](../Conceptos/node.md), [`deployments`](../Conceptos/deployment.md), [`replicasets`](../Conceptos/replicaset.md) | la parte que ejecuta y mantiene replicas      |
@@ -49,6 +52,7 @@ La [API de Kubernetes](../Conceptos/api-kubernetes.md) tambien forma parte de es
 | Configuracion           | `configmaps`, `secrets`, `serviceaccounts`                                                                                                     | la parte que da entrada y contexto a los pods |
 | Estado y observabilidad | [`events`](../Conceptos/events.md), `leases`                                                                                                        | la parte que deja pistas de lo que pasa       |
 | Almacenamiento          | `persistentvolumes`, `persistentvolumeclaims`, `storageclasses`                                                                                | la parte que sostiene datos                   |
+
 <br>
 
 
