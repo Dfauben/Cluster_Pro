@@ -1,5 +1,14 @@
 # Intermediate 01 - Probes de salud
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Intermediate](../README.md)
+- [Anterior](../00_Cluster_y_Nodos/README.md)
+- [Siguiente](../02_Recursos_y_Scheduling/README.md)
+- [Conceptos](../Conceptos/README.md)
+
+
 ## Objetivo
 
 Configurar y validar:

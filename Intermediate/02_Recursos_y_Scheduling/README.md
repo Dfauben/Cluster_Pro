@@ -1,5 +1,14 @@
 # Intermediate 02 - Recursos y Scheduling
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Intermediate](../README.md)
+- [Anterior](../01_Probes_Salud/README.md)
+- [Siguiente](../03_Networking_e_Ingress/README.md)
+- [Conceptos](../Conceptos/README.md)
+
+
 ## Objetivo
 
 Aprender control de placement y capacidad:

@@ -1,5 +1,14 @@
 # Intermediate 00 - Cluster y Nodos
 
+## Navegacion
+
+- [Inicio del repositorio](../../README.md)
+- [Inicio de Intermediate](../README.md)
+- [Anterior](../../Beginner/README.md)
+- [Siguiente](../01_Probes_Salud/README.md)
+- [Conceptos](../Conceptos/README.md)
+
+
 ## Objetivo
 
 Crear y operar un cluster multinodo local para practicar maniobras reales de infraestructura:
