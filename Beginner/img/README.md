@@ -24,13 +24,16 @@
 ### `01_Fundamentos/`
 - `teo00.png`
 - `teo01.png`
+- `lab00.png`
 
 ### `02_Kubectl_Operacion/`
 - `teo00.png`
+- `lab00.png`
 
 ### `03_Workloads_Basicos/`
 - `teo00.png`
 - `teo01.png`
+- `lab00.png`
 
 ### `04_Services_Exposicion/`
 - `teo00.png`

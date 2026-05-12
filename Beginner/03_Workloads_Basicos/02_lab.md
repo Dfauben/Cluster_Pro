@@ -54,10 +54,9 @@ En este punto Kubernetes debe converger al numero de replicas pedido. Si todo va
 
 <br>
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-crear -> observar -> exponer -> escalar -> verificar
-```
+<img src="../img/03_Workloads_Basicos/lab00.png" alt="Crear y observar un workload basico en Kubernetes" width="1000">
+
+<br>
 
 ## Criterio de salida
 
