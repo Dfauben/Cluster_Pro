@@ -42,6 +42,7 @@ Te dejan una aplicacion sencilla ya desplegada en el cluster. Debes comprobar qu
 
 Si puedes demostrar que sabes separar ejecucion, acceso y configuracion, el escenario esta resuelto.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Escenario 03](03_escenario_debug.md).

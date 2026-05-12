@@ -56,6 +56,7 @@ config -> pod -> comportamiento
 
 La practica queda resuelta cuando sabes crear configuracion separada, verla en Kubernetes y comprobar que el pod la consume sin rehacer la imagen.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Almacenamiento basico](../06_Almacenamiento_Basico/README.md).

@@ -91,6 +91,7 @@ pvc -> volumen -> pod -> dato
 
 La practica queda resuelta cuando sabes pedir almacenamiento, montarlo en un pod y comprobar que el dato vive en el volumen y no solo en la ejecucion del contenedor.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Debug operativo inicial](../07_Debug_Operativo/README.md).

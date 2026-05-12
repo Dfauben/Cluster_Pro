@@ -189,6 +189,7 @@ Si sabes agruparla por familia, ya puedes leer el cluster con orden.
 - identificas componentes del control-plane
 - reconoces la familia de los recursos mas comunes
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Primeros comandos con kubectl](../02_Kubectl_Operacion/README.md).

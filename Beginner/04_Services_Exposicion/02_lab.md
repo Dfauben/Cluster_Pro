@@ -55,6 +55,7 @@ deployment -> service -> endpoints -> pods
 
 La practica queda resuelta cuando sabes crear un service interno, leer su selector y comprobar que el acceso sigue existiendo aunque cambien los pods.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Configuracion basica](../05_Configuracion_Basica/README.md).

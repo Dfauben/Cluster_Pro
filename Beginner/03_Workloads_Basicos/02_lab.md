@@ -63,6 +63,7 @@ crear -> observar -> exponer -> escalar -> verificar
 
 La practica queda resuelta cuando puedes crear la app, verla nacer, exponerla internamente y dejarla en tres replicas con un rollout correcto.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Services y exposicion basica](../04_Services_Exposicion/README.md).

@@ -40,6 +40,7 @@ Tienes acceso a un cluster ya levantado en kind. El objetivo no es cambiar nada,
 
 Si puedes describir el cluster por capas sin abrir YAML ni perderte en la salida, el escenario esta resuelto.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Escenario 02](02_escenario_app.md).

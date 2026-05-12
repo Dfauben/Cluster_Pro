@@ -60,6 +60,7 @@ logs -> describe -> events -> restart
 
 La practica queda resuelta cuando sabes leer el fallo en orden y entiendes por que reiniciar antes de tiempo no arregla nada.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Repaso integrador](../08_Repaso_Integrador/README.md).

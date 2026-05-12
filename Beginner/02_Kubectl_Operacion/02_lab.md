@@ -65,6 +65,7 @@ get all -> labels -> describe -> selector
 
 Si sabes usar `get` para ubicarte, `describe` para bajar al detalle y `-l` para filtrar sin perderte, la practica esta resuelta.
 <br>
+
 ## ➡️ Siguiente
 
 Continua con [Primeros deployments y servicios](../03_Workloads_Basicos/README.md).
