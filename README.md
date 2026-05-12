@@ -4,11 +4,13 @@ Este repositorio esta organizado para aprender Kubernetes paso a paso, con foco 
 
 ## Entorno oficial del laboratorio
 
-Todo se ejecuta **siempre desde WSL**:
+Primero se prepara el host Windows y WSL.
+Despues, todo el trabajo del laboratorio se hace desde WSL:
+
 - comandos `kubectl`
 - comandos `kind`
 - comandos `helm`
-- comandos `docker` (tambien desde WSL)
+- comandos `docker`
 
 ## Formato de imagenes en README
 
@@ -18,13 +20,15 @@ Estandar acordado para este repositorio:
 
 ## Estructura
 
+- `setup/`: instalacion y validacion del entorno desde cero.
 - `Beginner/`: base operativa desde cero.
 - `Intermediate/`: operacion intermedia y patrones de produccion.
 - `Pro/`: seguridad, GitOps, observabilidad y operacion avanzada.
-- `PROGRESS.md`: bitacora viva del laboratorio.
 
 ## Accesos rapidos
 
+- [Setup - Entorno base](setup/README.md)
+- [Setup Windows 10/11](setup/windows/README.md)
 - [Beginner - README principal](Beginner/README.md)
 - [Beginner - Conceptos](Beginner/Conceptos/README.md)
 - [Intermediate - README principal](Intermediate/README.md)
@@ -33,21 +37,27 @@ Estandar acordado para este repositorio:
 
 ## Orden recomendado
 
-1. `Beginner/00_Fundamentos`
-2. `Beginner/01_Kubectl_Operacion`
-3. `Beginner/02_Workloads_Basicos`
-4. `Beginner/03_Debug_Operativo`
-5. `Intermediate/00_Cluster_y_Nodos`
-6. `Intermediate/01_Probes_Salud`
-7. `Intermediate/02_Recursos_y_Scheduling`
-8. `Intermediate/03_Networking_e_Ingress`
-9. `Intermediate/04_Storage_Persistencia`
-10. `Intermediate/05_Helm_Base`
-11. `Pro`
+1. `setup/windows`
+2. `Beginner/00_Prerrequisitos`
+3. `Beginner/01_Fundamentos`
+4. `Beginner/02_Kubectl_Operacion`
+5. `Beginner/03_Workloads_Basicos`
+6. `Beginner/04_Services_Exposicion`
+7. `Beginner/05_Configuracion_Basica`
+8. `Beginner/06_Almacenamiento_Basico`
+9. `Beginner/07_Debug_Operativo`
+10. `Intermediate/00_Cluster_y_Nodos`
+11. `Intermediate/01_Probes_Salud`
+12. `Intermediate/02_Recursos_y_Scheduling`
+13. `Intermediate/03_Networking_e_Ingress`
+14. `Intermediate/04_Storage_Persistencia`
+15. `Intermediate/05_Helm_Base`
+16. `Pro`
 
 ## Regla de trabajo
 
 En cada bloque:
 1. Ejecutar comandos.
 2. Entender salida.
-3. Documentar resultado en `PROGRESS.md`.
+3. Corregir fallos de forma guiada.
+4. Verificar el resultado antes de seguir.

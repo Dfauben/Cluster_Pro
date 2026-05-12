@@ -11,19 +11,7 @@
 
 Antes de operar un [cluster](../Conceptos/cluster.md) necesitas aprender a leerlo sin perderte. La idea no es memorizar comandos sueltos, sino entender que cada salida de [`kubectl`](../Conceptos/kubectl-context.md) te enseña una capa distinta del sistema.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-┌──────────────────────────────────────────────────────────┐
-│                    COMO LEER EL CLUSTER                  │
-├──────────────────────────────────────────────────────────┤
-│ contexto  -> a que cluster hablas                        │
-│ nodos     -> donde puede ejecutarse trabajo              │
-│ namespaces-> como se separa el cluster                   │
-│ pods      -> que esta corriendo de verdad                │
-│ services  -> como se accede de forma estable             │
-│ API       -> que objetos existen y como se escriben      │
-└──────────────────────────────────────────────────────────┘
-```
+<img src="../../rsc/beginner/img/teo00.png" alt="Como leer el cluster" width="1280">
 
 Si lo piensas desde la operacion diaria, el orden importa. Primero confirmas que el shell apunta al cluster correcto, porque si el contexto es equivocado todo lo demas queda contaminado. Luego miras los [nodos](../Conceptos/node.md) para saber si el cluster tiene una base sana. Despues separas el espacio de sistema del espacio de usuario con [namespaces](../Conceptos/namespace.md), y solo entonces miras los [pods](../Conceptos/pod.md) que realmente estan corriendo.
 
@@ -40,21 +28,7 @@ En [`kube-system`](../Conceptos/namespace.md) vive la infraestructura interna. N
 
 Los otros namespaces ayudan a separar funciones. [`default`](../Conceptos/namespace.md) es el sitio mas simple para pruebas. [`kube-public`](../Conceptos/namespace.md) expone informacion publica del cluster. [`kube-node-lease`](../Conceptos/namespace.md) ayuda a saber si un nodo sigue vivo. `local-path-storage` suele aparecer en kind como una solucion simple de almacenamiento local. Si entiendes esa separacion, leer la salida deja de ser ruido.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-cluster
-├── default
-├── kube-public
-├── kube-node-lease
-├── local-path-storage
-└── kube-system
-    ├── coredns
-    ├── etcd
-    ├── kube-apiserver
-    ├── kube-controller-manager
-    ├── kube-scheduler
-    └── kube-proxy
-```
+<img src="../../rsc/beginner/img/teo01.png" alt="Namespaces y kube-system" width="1280">
 
 La [API de Kubernetes](../Conceptos/api-kubernetes.md) tambien forma parte de esta fotografia. `api-resources` te dice que tipos de objeto existen y si viven dentro de un namespace o a nivel cluster. [`explain`](../Conceptos/api-kubernetes.md) te muestra la forma del objeto, que es justo lo que necesitas cuando no recuerdas un campo de un YAML. Eso es mas util que intentar memorizar la sintaxis completa desde el principio.
 
