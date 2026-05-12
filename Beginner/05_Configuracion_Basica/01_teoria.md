@@ -25,6 +25,9 @@ Un `ConfigMap` guarda configuracion no sensible. Un `Secret` guarda valores sens
 | variables de entorno | lectura simple desde el pod | inyectar valores sin editar la imagen |
 | volume mount | archivo dentro del contenedor | consumir config como fichero |
 
+
+<br>
+
 La idea practica es que el mismo pod puede comportarse distinto segun el valor que reciba. Eso te evita crear una imagen nueva solo por cambiar un nombre de servicio o una contraseña.
 
 ```text

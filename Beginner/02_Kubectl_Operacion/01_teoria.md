@@ -26,6 +26,9 @@ La idea operativa es simple: unas veces quieres una foto rapida, otras un detall
 | si un filtro no devuelve nada | selector vacio | confirmacion de que no hay coincidencia |
 | como leer mejor una salida | [`custom-columns`](../Conceptos/custom-columns.md) | una vista adaptada a lo que te interesa |
 
+
+<br>
+
 Cuando usas `get`, piensas en amplitud. Cuando usas [`describe`](../Conceptos/kubectl-describe.md), piensas en detalle. Cuando usas [labels](../Conceptos/labels.md) o [selectors](../Conceptos/selector.md), piensas en seleccionar lo minimo necesario para no perderte. Esa es la diferencia entre mirar Kubernetes y entenderlo.
 
 ```text

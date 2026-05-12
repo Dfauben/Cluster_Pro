@@ -25,6 +25,9 @@ La lectura correcta va de menos coste a mas contexto. Primero miras [`logs`](../
 | [`events`](../Conceptos/events.md) | cronologia de hechos | si la pista aun es incompleta |
 | [`rollout`](../Conceptos/rollout.md) | reintento controlado | solo si tiene sentido corregir desde ahi |
 
+
+<br>
+
 Cuando entiendes esta secuencia, dejas de tratar un fallo como una emergencia ciega. No todo problema se arregla reiniciando. A veces el pod esta mal configurado, a veces la imagen falla y a veces el estado parece malo solo porque aun no termino de arrancar.
 
 **[IMAGEN ASCII - reemplazar por imagen]**

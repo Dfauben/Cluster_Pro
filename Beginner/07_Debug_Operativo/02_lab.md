@@ -48,6 +48,9 @@ Solo haces este paso cuando ya has entendido que reiniciar puede ayudar de verda
 | events | secuencia temporal |
 | restart | convergencia tras la correccion |
 
+
+<br>
+
 **[IMAGEN ASCII - reemplazar por imagen]**
 ```text
 logs -> describe -> events -> restart
@@ -56,6 +59,7 @@ logs -> describe -> events -> restart
 ## Criterio de salida
 
 La practica queda resuelta cuando sabes leer el fallo en orden y entiendes por que reiniciar antes de tiempo no arregla nada.
+<br>
 ## ➡️ Siguiente
 
 Continua con [Repaso integrador](../08_Repaso_Integrador/README.md).

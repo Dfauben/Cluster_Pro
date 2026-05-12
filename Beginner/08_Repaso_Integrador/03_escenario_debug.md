@@ -37,6 +37,7 @@ Te dan una aplicacion que no termina de arrancar del todo. No te piden rehacerla
 ## Criterio de salida
 
 Si puedes seguir el orden correcto, identificar la causa util y decidir con criterio si reiniciar aporta algo, el escenario esta resuelto.
+<br>
 ## ➡️ Siguiente
 
 Continua con [Indice del repaso](../README.md).

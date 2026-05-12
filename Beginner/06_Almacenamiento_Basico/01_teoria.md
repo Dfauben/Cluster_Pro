@@ -25,6 +25,9 @@ La idea es sencilla: el `Pod` pide almacenamiento, el `PVC` hace la solicitud y 
 | `PV` | volumen real | guarda datos |
 | `StorageClass` | forma de aprovisionar | define como se crea el volumen |
 
+
+<br>
+
 Cuando el almacenamiento esta bien planteado, los datos sobreviven al ciclo de vida del pod. Esa es la diferencia entre "se guarda mientras corre" y "se guarda de verdad".
 
 ```text

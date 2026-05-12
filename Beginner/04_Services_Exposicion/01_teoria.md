@@ -24,6 +24,9 @@ La idea importante es que el `Service` no "es" la aplicacion. Es el punto de acc
 | `NodePort` | acceso por un puerto del nodo | cuando quieres entrar desde fuera en un lab |
 | `LoadBalancer` | acceso con balanceador externo | cuando el entorno lo soporta |
 
+
+<br>
+
 Lo normal en un laboratorio local es empezar por [`ClusterIP`](../Conceptos/clusterip.md), porque te enseña la idea basica: el acceso vive aunque el pod cambie. La IP estable pertenece al service, no al pod.
 
 ```text

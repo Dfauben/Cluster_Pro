@@ -44,6 +44,9 @@ La idea es comprobar que la configuracion llega al contenedor sin editar la imag
 | leer yaml | ves que Kubernetes los trata distinto |
 | ejecutar pod de prueba | la config entra al runtime |
 
+
+<br>
+
 **[IMAGEN ASCII - reemplazar por imagen]**
 ```text
 config -> pod -> comportamiento
@@ -52,6 +55,7 @@ config -> pod -> comportamiento
 ## Criterio de salida
 
 La practica queda resuelta cuando sabes crear configuracion separada, verla en Kubernetes y comprobar que el pod la consume sin rehacer la imagen.
+<br>
 ## ➡️ Siguiente
 
 Continua con [Almacenamiento basico](../06_Almacenamiento_Basico/README.md).

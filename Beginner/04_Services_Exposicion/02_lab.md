@@ -43,6 +43,9 @@ Al cambiar las replicas, el service no deberia romperse. Lo que cambia son los p
 | revisar endpoints | ves los pods reales detras |
 | escalar | cambian las replicas, no la idea del acceso |
 
+
+<br>
+
 **[IMAGEN ASCII - reemplazar por imagen]**
 ```text
 deployment -> service -> endpoints -> pods
@@ -51,6 +54,7 @@ deployment -> service -> endpoints -> pods
 ## Criterio de salida
 
 La practica queda resuelta cuando sabes crear un service interno, leer su selector y comprobar que el acceso sigue existiendo aunque cambien los pods.
+<br>
 ## ➡️ Siguiente
 
 Continua con [Configuracion basica](../05_Configuracion_Basica/README.md).

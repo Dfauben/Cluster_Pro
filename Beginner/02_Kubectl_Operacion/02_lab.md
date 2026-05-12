@@ -53,6 +53,9 @@ foto general -> detalle -> filtro
 | `describe node` | estado y capacidad de un nodo |
 | `-l app=no-existe` | selector vacio como comprobacion |
 
+
+<br>
+
 **[IMAGEN ASCII - reemplazar por imagen]**
 ```text
 get all -> labels -> describe -> selector
@@ -61,6 +64,7 @@ get all -> labels -> describe -> selector
 ## Criterio de salida
 
 Si sabes usar `get` para ubicarte, `describe` para bajar al detalle y `-l` para filtrar sin perderte, la practica esta resuelta.
+<br>
 ## ➡️ Siguiente
 
 Continua con [Primeros deployments y servicios](../03_Workloads_Basicos/README.md).

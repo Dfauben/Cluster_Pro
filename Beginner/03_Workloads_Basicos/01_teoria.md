@@ -28,6 +28,9 @@ La pieza importante aqui es que cada objeto hace un trabajo distinto. El [`Deplo
 | [`Service`](../Conceptos/service.md) | acceso estable | mantiene una entrada fija hacia los pods correctos |
 | [`ClusterIP`](../Conceptos/clusterip.md) | acceso interno | expone el service dentro del cluster |
 
+
+<br>
+
 Cuando escalas o actualizas, Kubernetes no inventa una nueva regla cada vez. Reconcilia el estado hasta volver a lo que pediste. Por eso es importante separar lo que se gestiona de forma estable de lo que puede desaparecer y volver a salir. El [pod](../Conceptos/pod.md) puede cambiar; la idea del workload debe seguir viva.
 
 ```text

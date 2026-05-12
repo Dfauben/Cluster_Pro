@@ -23,4 +23,3 @@ Este bloque no introduce conceptos nuevos. Cada escenario te pide mezclar piezas
 1. [Escenario 01 - Fotografia completa del cluster](01_escenario_cluster.md)
 2. [Escenario 02 - Aplicacion expuesta y configurada](02_escenario_app.md)
 3. [Escenario 03 - Diagnostico de una app que no arranca](03_escenario_debug.md)
-

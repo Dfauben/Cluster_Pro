@@ -18,4 +18,3 @@
 ## Proposito
 
 Entender como separar configuracion, secretos y ejecucion en un workload simple.
-

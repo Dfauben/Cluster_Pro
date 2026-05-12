@@ -115,6 +115,9 @@ cluster
 | `deployments` | Mantiene replicas y cambios |
 | `replicasets` | Sostiene el numero de pods pedido |
 
+
+<br>
+
 ### Red y acceso
 
 | Recurso | Idea rapida |
@@ -124,6 +127,9 @@ cluster
 | `ingresses` | Entrada HTTP/HTTPS hacia services |
 | `networkpolicies` | Reglas de trafico entre pods |
 
+
+<br>
+
 ### Configuracion y seguridad
 
 | Recurso | Idea rapida |
@@ -132,12 +138,18 @@ cluster
 | `secrets` | Datos sensibles |
 | `serviceaccounts` | Identidad del pod en la API |
 
+
+<br>
+
 ### Estado y observabilidad
 
 | Recurso | Idea rapida |
 |---|---|
 | `events` | Pistas de lo que ha pasado |
 | `leases` | Estado temporal de coordinacion |
+
+
+<br>
 
 ### Almacenamiento
 
@@ -147,12 +159,18 @@ cluster
 | `persistentvolumeclaims` | Peticiones de almacenamiento |
 | `storageclasses` | Como se aprovisiona el storage |
 
+
+<br>
+
 ### Extensibilidad
 
 | Recurso | Idea rapida |
 |---|---|
 | `customresourcedefinitions` | Nuevos tipos de recurso |
 | `apiservices` | APIs agregadas al cluster |
+
+
+<br>
 
 No hace falta memorizar toda la lista de `api-resources`.
 Si sabes agruparla por familia, ya puedes leer el cluster con orden.
@@ -170,6 +188,7 @@ Si sabes agruparla por familia, ya puedes leer el cluster con orden.
 - ves `kube-system` y `default`
 - identificas componentes del control-plane
 - reconoces la familia de los recursos mas comunes
+<br>
 ## ➡️ Siguiente
 
 Continua con [Primeros comandos con kubectl](../02_Kubectl_Operacion/README.md).

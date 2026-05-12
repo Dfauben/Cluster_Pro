@@ -51,6 +51,9 @@ En este punto Kubernetes debe converger al numero de replicas pedido. Si todo va
 | escalar | Kubernetes crea o ajusta replicas |
 | rollout status | la convergencia termina bien |
 
+
+<br>
+
 **[IMAGEN ASCII - reemplazar por imagen]**
 ```text
 crear -> observar -> exponer -> escalar -> verificar
@@ -59,6 +62,7 @@ crear -> observar -> exponer -> escalar -> verificar
 ## Criterio de salida
 
 La practica queda resuelta cuando puedes crear la app, verla nacer, exponerla internamente y dejarla en tres replicas con un rollout correcto.
+<br>
 ## ➡️ Siguiente
 
 Continua con [Services y exposicion basica](../04_Services_Exposicion/README.md).

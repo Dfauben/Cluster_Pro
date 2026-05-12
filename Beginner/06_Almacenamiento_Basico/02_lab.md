@@ -79,6 +79,9 @@ Si todo va bien, el pod monta el volumen y puedes leer el dato que has escrito.
 | crear pod | el pod monta el volumen |
 | leer dato | el contenido persiste dentro del volumen |
 
+
+<br>
+
 **[IMAGEN ASCII - reemplazar por imagen]**
 ```text
 pvc -> volumen -> pod -> dato
@@ -87,6 +90,7 @@ pvc -> volumen -> pod -> dato
 ## Criterio de salida
 
 La practica queda resuelta cuando sabes pedir almacenamiento, montarlo en un pod y comprobar que el dato vive en el volumen y no solo en la ejecucion del contenedor.
+<br>
 ## ➡️ Siguiente
 
 Continua con [Debug operativo inicial](../07_Debug_Operativo/README.md).
