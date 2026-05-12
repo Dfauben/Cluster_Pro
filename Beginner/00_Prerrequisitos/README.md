@@ -12,6 +12,19 @@ Este bloque es una guia de setup.
 Su objetivo es dejar una base limpia y conocida para el resto del laboratorio.
 No enseña Kubernetes en profundidad; prepara el terreno y valida que el entorno responde bien.
 
+
+## Contenidos
+
+| Seccion | Descripcion | Abrir |
+|---|---|---|
+| 🧭 Propósito | Qué prepara este bloque | [Ir a propósito](#proposito) |
+| 🧠 Modelo mental | La cadena de dependencias del setup | [Ir al modelo mental](#modelo-mental) |
+| ⚠️ Por qué importa | Por qué conviene hacerlo así | [Ir a por qué importa](#por-que-importa) |
+| 🛠️ Guía paso a paso | Validar base, herramientas y primer cluster | [Ir a la guía](#guia-paso-a-paso) |
+| ✅ Verificación rápida | Lo que debe quedar funcionando | [Ir a verificación](#verificacion-rapida) |
+| 🧩 Si algo falla | Cómo volver a la guía correcta | [Ir a errores](#si-algo-falla) |
+| 🏁 Cierre | Qué debes conseguir al terminar | [Ir al cierre](#cierre) |
+
 ## Modelo mental
 
 Piensa en el setup como una cadena de dependencias:
@@ -126,7 +139,3 @@ Te piden llegar a un punto donde el resto del laboratorio ya no pelee con la bas
 ### Criterio de salida
 
 Si no puedes explicar la diferencia entre fallo de instalacion, fallo de contexto y fallo de cluster, no conviene seguir.
-
-## ➡️ Siguiente
-
-Cuando termines, continua con [Beginner 01 - Fundamentos del cluster](../01_Fundamentos/README.md).

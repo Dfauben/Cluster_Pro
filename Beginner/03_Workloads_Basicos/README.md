@@ -6,19 +6,15 @@
 - [📘 Inicio de Beginner](../README.md)
 - [⬅️ Anterior: 02 - Operacion diaria con kubectl](../02_Kubectl_Operacion/README.md)
 - [➡️ Siguiente: 04 - Services y exposicion basica](../04_Services_Exposicion/README.md)
-- [🧠 Teoria](01_teoria.md)
-- [🛠️ Practica guiada](02_lab.md)
 
-## Indice
+## Contenidos
 
-- [Modulo Beginner](../README.md)
-  - [Teoria](01_teoria.md)
-  - [Practica guiada](02_lab.md)
- 
+| Seccion | Descripcion | Abrir |
+|---|---|---|
+| 🧠 Teoría | Entender `Deployment`, `ReplicaSet`, `Pod` y `Service` | [Ir a teoría](01_teoria.md) |
+| 🛠️ Práctica guiada | Crear y escalar un workload básico | [Ir a práctica guiada](02_lab.md) |
+
 ## Proposito
 
 Crear y maniobrar una aplicacion simple sobre un estado conocido.
 
-## ➡️ Siguiente
-
-Continua con [Beginner 04 - Services y exposicion basica](../04_Services_Exposicion/README.md).
