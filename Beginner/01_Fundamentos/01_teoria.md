@@ -53,7 +53,3 @@ La lectura correcta de este bloque es simple: no tienes que saberlo todo de memo
 - `kube-system` no es para tus apps
 - los namespaces separan funciones
 - `kubectl explain` es la referencia rapida cuando no recuerdas la forma de un recurso
-
-**[PROMPT IMAGEN - generar fuera del repo]**
-> Prompt visual sugerido:
-> Genera un diagrama didáctico sobre la lectura base de un cluster de Kubernetes, con pocas cajas y flechas claras. Debe mostrar el flujo contexto -> nodos -> namespaces -> pods -> services -> API, y destacar `kube-system` como la capa interna del cluster. Estilo limpio, educativo, fondo simple y sin ruido visual.
