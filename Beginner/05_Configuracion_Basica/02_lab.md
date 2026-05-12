@@ -47,10 +47,9 @@ La idea es comprobar que la configuracion llega al contenedor sin editar la imag
 
 <br>
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-config -> pod -> comportamiento
-```
+<img src="../img/05_Configuracion_Basica/lab00.png" alt="Configuracion externa en Kubernetes" width="1000">
+
+<br>
 
 ## Criterio de salida
 

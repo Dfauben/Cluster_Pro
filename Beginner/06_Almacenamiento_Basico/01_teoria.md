@@ -11,10 +11,11 @@
 
 Los pods no son un lugar seguro para guardar datos que deban sobrevivir a un reinicio. Por eso Kubernetes separa la ejecucion del almacenamiento persistente con `PV`, `PVC` y `StorageClass`.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-Pod -> PVC -> PV -> StorageClass
-```
+<br>
+
+<img src="../img/06_Almacenamiento_Basico/teo00.png" alt="Almacenamiento persistente en Kubernetes" width="1000">
+
+<br>
 
 La idea es sencilla: el `Pod` pide almacenamiento, el `PVC` hace la solicitud y el `PV` representa el volumen disponible. La `StorageClass` define como se aprovisiona ese volumen. En Beginner solo necesitas entender la relacion entre estas piezas y por que no basta con escribir datos dentro del contenedor.
 
@@ -36,14 +37,6 @@ datos en pod -> datos con PVC -> datos persistentes
 
 Si lo piensas en operacion, no todos los datos merecen persistencia. Pero cuando hace falta, debes saber pedirla de forma correcta.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-app
-├── runtime efimero
-├── solicitud de volumen
-└── volumen persistente
-```
-
 **Errores tipicos**
 - guardar datos importantes dentro del filesystem efimero del pod
 - confundir el PVC con el volumen real
@@ -55,9 +48,6 @@ app
 - el PVC pide almacenamiento
 - el PV es el volumen real
 - la StorageClass define como se crea
-
-> **[PROMPT IMAGEN - generar fuera del repo]**
-> Genera un diagrama didáctico sobre almacenamiento persistente en Kubernetes. Debe mostrar un Pod pidiendo un PVC, un PV como volumen real y una StorageClass como forma de aprovisionamiento. Estilo limpio, educativo, fondo simple y sin ruido visual.
 
 ## ➡️ Siguiente
 

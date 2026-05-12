@@ -11,10 +11,11 @@
 
 Debug operativo es aprender a mirar un fallo sin reaccionar por impulso. En Beginner no buscas resolver incidencias complejas; buscas reconocer la primera evidencia util, entender el estado del [pod](../Conceptos/pod.md) y decidir si reiniciar ayuda o solo tapa el problema.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-logs -> describe -> events -> decision
-```
+<br>
+
+<img src="../img/07_Debug_Operativo/teo00.png" alt="Troubleshooting básico en Kubernetes" width="1000">
+
+<br>
 
 La lectura correcta va de menos coste a mas contexto. Primero miras [`logs`](../Conceptos/kubectl-logs.md) porque suelen darte la primera pista. Luego [`describe`](../Conceptos/kubectl-describe.md) para ver el estado del pod, las condiciones y el motivo mas util del fallo. Si sigue sin estar claro, [`events`](../Conceptos/events.md) te ayudan a ordenar lo que ha pasado. Reiniciar solo tiene sentido cuando ya sabes por que lo haces.
 
@@ -30,11 +31,6 @@ La lectura correcta va de menos coste a mas contexto. Primero miras [`logs`](../
 
 Cuando entiendes esta secuencia, dejas de tratar un fallo como una emergencia ciega. No todo problema se arregla reiniciando. A veces el pod esta mal configurado, a veces la imagen falla y a veces el estado parece malo solo porque aun no termino de arrancar.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-evidencia -> contexto -> pista extra -> decision
-```
-
 **Errores tipicos**
 - mirar logs y parar ahi
 - reiniciar antes de entender el error
@@ -47,9 +43,6 @@ evidencia -> contexto -> pista extra -> decision
 - `describe` te da el contexto mas util
 - `events` ayudan si sigue faltando contexto
 - reiniciar no sustituye a diagnosticar
-
-> **[PROMPT IMAGEN - generar fuera del repo]**
-> Genera un diagrama didáctico sobre troubleshooting básico en Kubernetes. Debe mostrar la secuencia `logs -> describe -> events -> decision`, con pocas cajas, flechas claras y estilo limpio. Fondo simple, educativo y sin ruido visual.
 
 ## ➡️ Siguiente
 

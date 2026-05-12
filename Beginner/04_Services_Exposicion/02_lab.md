@@ -46,10 +46,9 @@ Al cambiar las replicas, el service no deberia romperse. Lo que cambia son los p
 
 <br>
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-deployment -> service -> endpoints -> pods
-```
+<img src="../img/04_Services_Exposicion/lab00.png" alt="Deployment se expone con Service, Endpoints y Pods" width="1000">
+
+<br>
 
 ## Criterio de salida
 

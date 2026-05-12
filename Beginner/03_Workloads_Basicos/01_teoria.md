@@ -11,12 +11,11 @@
 
 Cuando creas una aplicacion en Kubernetes, no piensas solo en [pods](../Conceptos/pod.md). Piensas en el estado que quieres mantener, en cuantas copias necesitas y en como vas a acceder a ellas sin depender de una IP fragil.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-Deployment -> ReplicaSet -> Pods
-                    \
-                     -> Service
-```
+<br>
+
+<img src="../img/03_Workloads_Basicos/teo00.png" alt="Deployment, ReplicaSet, Pods y Service" width="680">
+
+<br>
 
 La pieza importante aqui es que cada objeto hace un trabajo distinto. El [`Deployment`](../Conceptos/deployment.md) describe el estado deseado y controla los cambios. El [`ReplicaSet`](../Conceptos/replicaset.md) sostiene el numero de copias que deben existir. Los [pods](../Conceptos/pod.md) son la ejecucion real. Y el [`Service`](../Conceptos/service.md) ofrece una entrada estable para llegar a esos pods sin engancharte a una IP concreta.
 
@@ -28,10 +27,11 @@ La pieza importante aqui es que cada objeto hace un trabajo distinto. El [`Deplo
 | [`Service`](../Conceptos/service.md) | acceso estable | mantiene una entrada fija hacia los pods correctos |
 | [`ClusterIP`](../Conceptos/clusterip.md) | acceso interno | expone el service dentro del cluster |
 
-
 <br>
 
 Cuando escalas o actualizas, Kubernetes no inventa una nueva regla cada vez. Reconcilia el estado hasta volver a lo que pediste. Por eso es importante separar lo que se gestiona de forma estable de lo que puede desaparecer y volver a salir. El [pod](../Conceptos/pod.md) puede cambiar; la idea del workload debe seguir viva.
+
+<br>
 
 ```text
 estado deseado -> reconciliacion -> pods vivos -> acceso estable
@@ -39,14 +39,11 @@ estado deseado -> reconciliacion -> pods vivos -> acceso estable
 
 Si lo llevas a operacion real, la pregunta correcta no es "que pod tengo ahora". La pregunta es "que controlador lo mantiene, cuantos deberia haber y como accedo a el sin depender de una IP concreta". Esa diferencia es la base de casi todo lo que haces despues en Kubernetes.
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-app estable
-├── controlador
-├── replicas
-├── ejecucion efimera
-└── acceso interno
-```
+<br>
+
+<img src="../img/03_Workloads_Basicos/teo01.png" alt="Service como acceso estable a pods" width="680">
+
+<br>
 
 **Errores tipicos**
 - pensar que el pod es la unidad principal de gestion
@@ -60,9 +57,6 @@ app estable
 - el service da una entrada estable
 - `ClusterIP` es la forma basica de acceso interno
 - Kubernetes reconcilia, no improvisa
-
-> **[PROMPT IMAGEN - generar fuera del repo]**
-> Genera un diagrama educativo sobre el ciclo de vida de una app en Kubernetes: `Deployment` -> `ReplicaSet` -> `Pods`, con un `Service` apuntando a los pods. Estilo limpio, pocas cajas, flechas claras y etiquetas sencillas, fondo simple y didáctico.
 
 ## ➡️ Siguiente
 

@@ -51,10 +51,9 @@ Solo haces este paso cuando ya has entendido que reiniciar puede ayudar de verda
 
 <br>
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-logs -> describe -> events -> restart
-```
+<img src="../img/07_Debug_Operativo/lab00.png" alt="Troubleshooting basico en Kubernetes" width="1000">
+
+<br>
 
 ## Criterio de salida
 

@@ -93,16 +93,11 @@ Qué debes fijarte:
 - si es de computo, red, config o almacenamiento
 - si `explain` te enseña la forma del objeto para escribir YAML sin adivinar
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-cluster
-├── contexto
-├── nodes
-├── namespaces
-├── pods
-├── services
-└── API
-```
+<br>
+
+<img src="../img/01_Fundamentos/lab00.png" alt="Leer un cluster de Kubernetes por capas" width="1000">
+
+<br>
 
 ## Lectura rapida por familias
 

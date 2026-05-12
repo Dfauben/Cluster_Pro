@@ -82,10 +82,9 @@ Si todo va bien, el pod monta el volumen y puedes leer el dato que has escrito.
 
 <br>
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-pvc -> volumen -> pod -> dato
-```
+<img src="../img/06_Almacenamiento_Basico/lab01.png" alt="Pod con PVC y almacenamiento persistente" width="1000">
+
+<br>
 
 ## Criterio de salida
 

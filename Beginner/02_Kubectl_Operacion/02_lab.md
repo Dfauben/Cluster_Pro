@@ -56,10 +56,9 @@ foto general -> detalle -> filtro
 
 <br>
 
-**[IMAGEN ASCII - reemplazar por imagen]**
-```text
-get all -> labels -> describe -> selector
-```
+<img src="../img/02_Kubectl_Operacion/lab00.png" alt="kubectl como herramienta de lectura rapida" width="1000">
+
+<br>
 
 ## Criterio de salida
 
