@@ -1,4 +1,4 @@
-# Beginner 07 - Debug operativo inicial
+# Beginner 08 - Debug operativo inicial
 
 
 ## Navegacion
@@ -13,7 +13,7 @@ Debug operativo es aprender a mirar un fallo sin reaccionar por impulso. En Begi
 
 <br>
 
-<img src="../img/07_Debug_Operativo/teo00.png" alt="Troubleshooting básico en Kubernetes" width="1000">
+<img src="../img/08_Debug_Operativo/teo00.png" alt="Troubleshooting básico en Kubernetes" width="1000">
 
 <br>
 

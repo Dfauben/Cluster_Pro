@@ -1,4 +1,4 @@
-# Beginner 04 - Services y exposicion basica
+# Beginner 05 - Services y exposicion basica
 
 
 ## Navegacion
@@ -13,21 +13,29 @@ Un [`Service`](../Conceptos/service.md) es la capa que mantiene una entrada esta
 
 <br>
 
-<img src="../img/04_Services_Exposicion/teo00.png" alt="Service como punto de acceso estable" width="680">
+<img src="../img/05_Services_Exposicion/teo00.png" alt="Service como punto de acceso estable" width="680">
 
 <br>
 
 La idea importante es que el `Service` no "es" la aplicacion. Es el punto de acceso. El pod ejecuta la carga, el [Deployment](../Conceptos/deployment.md) la sostiene y el `Service` deja una direccion estable para llegar a ella. En Beginner basta con distinguir la diferencia entre ejecucion y acceso.
 
+La relacion entre cliente, `Service`, selector y pods se ve mejor asi:
+
 <br>
 
-<img src="../img/04_Services_Exposicion/teo02.png" alt="Tipos de Service en Kubernetes" width="1000">
+<img src="../img/05_Services_Exposicion/teo01.png" alt="Service, selector y pods" width="1000">
+
+<br>
+
+<img src="../img/05_Services_Exposicion/teo02.png" alt="Tipos de Service en Kubernetes" width="1000">
 
 <br>
 
 Lo normal en un laboratorio local es empezar por [`ClusterIP`](../Conceptos/clusterip.md), porque te enseña la idea basica: el acceso vive aunque el pod cambie. La IP estable pertenece al service, no al pod.
 
 Si entiendes [selector](../Conceptos/selector.md), `ClusterIP` y pods, ya tienes la base para no confundir acceso con ejecucion.
+
+Para ver que hay detras del service, la referencia moderna es `EndpointSlice`. `Endpoints` sigue existiendo, pero ya no es la pieza que conviene usar como referencia principal.
 
 **Errores tipicos**
 - pensar que el service ejecuta la app

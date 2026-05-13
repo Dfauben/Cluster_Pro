@@ -1,4 +1,4 @@
-# Beginner 04 - Practica guiada
+# Beginner 05 - Practica guiada
 
 ## Navegacion
 
@@ -6,7 +6,7 @@
 - [📘 Inicio de Beginner](../README.md)
 - [📑 Índice del módulo](README.md)
 - [⬅️ Anterior](01_teoria.md)
-- [➡️ Siguiente](../05_Configuracion_Basica/README.md)
+- [➡️ Siguiente](../06_Configuracion_Basica/README.md)
 
 ## Contexto
 
@@ -24,29 +24,29 @@ Con esto creas la entrada interna estable. El `Service` queda asociado al `Deplo
 
 ```bash
 kubectl get svc hello-k8s
-kubectl get endpoints hello-k8s
+kubectl get endpointslice -l kubernetes.io/service-name=hello-k8s
 ```
 
-Aqui debes ver la IP estable del service y las IPs reales de los pods detras.
+Aqui debes ver la IP estable del service y las IPs reales de los pods detras. `EndpointSlice` es la forma moderna de ver esa relacion.
 
 ```bash
 kubectl scale deployment hello-k8s --replicas=2
 kubectl get pods -l app=hello-k8s -o wide
-kubectl get endpoints hello-k8s
+kubectl get endpointslice -l kubernetes.io/service-name=hello-k8s
 ```
 
-Al cambiar las replicas, el service no deberia romperse. Lo que cambia son los pods y, si hace falta, los endpoints.
+Al cambiar las replicas, el service no deberia romperse. Lo que cambia son los pods y, si hace falta, los `EndpointSlice`.
 
 | Paso | Qué debes observar |
 |---|---|
 | crear service | aparece un `ClusterIP` estable |
-| revisar endpoints | ves los pods reales detras |
+| revisar endpointslice | ves los pods reales detras |
 | escalar | cambian las replicas, no la idea del acceso |
 
 
 <br>
 
-<img src="../img/04_Services_Exposicion/lab00.png" alt="Deployment se expone con Service, Endpoints y Pods" width="1000">
+<img src="../img/05_Services_Exposicion/lab00.png" alt="Deployment se expone con Service, EndpointSlice y Pods" width="1000">
 
 <br>
 
@@ -57,4 +57,4 @@ La practica queda resuelta cuando sabes crear un service interno, leer su select
 
 ## ➡️ Siguiente
 
-Continua con [Configuracion basica](../05_Configuracion_Basica/README.md).
+Continua con [Configuracion basica](../06_Configuracion_Basica/README.md).

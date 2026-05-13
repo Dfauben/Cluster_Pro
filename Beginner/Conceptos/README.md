@@ -9,11 +9,12 @@ Esta carpeta ya no funciona como un glosario aislado. Ahora acompana a los bloqu
 - [00 - Prerrequisitos](../00_Prerrequisitos/README.md)
 - [01 - Fundamentos del cluster](../01_Fundamentos/README.md)
 - [02 - Operacion diaria con kubectl](../02_Kubectl_Operacion/README.md)
-- [03 - Primeros deployments y servicios](../03_Workloads_Basicos/README.md)
-- [04 - Services y exposicion basica](../04_Services_Exposicion/README.md)
-- [05 - Configuracion basica](../05_Configuracion_Basica/README.md)
-- [06 - Almacenamiento basico](../06_Almacenamiento_Basico/README.md)
-- [07 - Debug operativo inicial](../07_Debug_Operativo/README.md)
+- [03 - Despliegues imperativos](../03_Workloads_Basicos/README.md)
+- [04 - Despliegues declarativos](../04_Workloads_Declarativos/README.md)
+- [05 - Services y exposicion basica](../05_Services_Exposicion/README.md)
+- [06 - Configuracion basica](../06_Configuracion_Basica/README.md)
+- [07 - Almacenamiento basico](../07_Almacenamiento_Basico/README.md)
+- [08 - Debug operativo inicial](../08_Debug_Operativo/README.md)
 
 ## Como usar estos conceptos
 
@@ -42,24 +43,28 @@ Usa esta carpeta como apoyo del bloque que estes trabajando. La primera columna 
 | [Events](events.md) | [02 - Operacion diaria con kubectl](../02_Kubectl_Operacion/README.md) |
 | [Custom Columns](custom-columns.md) | [02 - Operacion diaria con kubectl](../02_Kubectl_Operacion/README.md) |
 
-## 03 - Primeros deployments y servicios
+## 03 - Despliegues imperativos
 
 | Concepto | Primera aparición |
 |---|---|
-| [Pod](pod.md) | [03 - Primeros deployments y servicios](../03_Workloads_Basicos/README.md) |
-| [Replicas](replicas.md) | [03 - Primeros deployments y servicios](../03_Workloads_Basicos/README.md) |
-| [ReplicaSet](replicaset.md) | [03 - Primeros deployments y servicios](../03_Workloads_Basicos/README.md) |
-| [Deployment](deployment.md) | [03 - Primeros deployments y servicios](../03_Workloads_Basicos/README.md) |
-| [Rollout](rollout.md) | [03 - Primeros deployments y servicios](../03_Workloads_Basicos/README.md) |
-| [DaemonSet](daemonset.md) | [03 - Primeros deployments y servicios](../03_Workloads_Basicos/README.md) |
+| [Pod](pod.md) | [03 - Despliegues imperativos](../03_Workloads_Basicos/README.md) |
+| [Replicas](replicas.md) | [03 - Despliegues imperativos](../03_Workloads_Basicos/README.md) |
+| [ReplicaSet](replicaset.md) | [03 - Despliegues imperativos](../03_Workloads_Basicos/README.md) |
+| [Deployment](deployment.md) | [03 - Despliegues imperativos](../03_Workloads_Basicos/README.md) |
+| [Rollout](rollout.md) | [03 - Despliegues imperativos](../03_Workloads_Basicos/README.md) |
+| [DaemonSet](daemonset.md) | [03 - Despliegues imperativos](../03_Workloads_Basicos/README.md) |
 
-## 04 - Services y exposicion basica
+## 04 - Despliegues declarativos
+
+Este bloque no añade conceptos nuevos al glosario. Reutiliza `Deployment`, `Service` y `Rollout` para trabajar en YAML con `apply`.
+
+## 05 - Services y exposicion basica
 
 | Concepto | Primera aparición |
 |---|---|
-| [Service](service.md) | [04 - Services y exposicion basica](../04_Services_Exposicion/README.md) |
-| [ClusterIP](clusterip.md) | [04 - Services y exposicion basica](../04_Services_Exposicion/README.md) |
-| [DNS interno (CoreDNS)](dns-interno.md) | [04 - Services y exposicion basica](../04_Services_Exposicion/README.md) |
+| [Service](service.md) | [05 - Services y exposicion basica](../05_Services_Exposicion/README.md) |
+| [ClusterIP](clusterip.md) | [05 - Services y exposicion basica](../05_Services_Exposicion/README.md) |
+| [DNS interno (CoreDNS)](dns-interno.md) | [05 - Services y exposicion basica](../05_Services_Exposicion/README.md) |
 
 ## Lectura recomendada
 

@@ -1,4 +1,4 @@
-# Beginner 05 - Configuracion basica
+# Beginner 06 - Configuracion basica
 
 
 ## Navegacion
@@ -13,7 +13,7 @@ En Kubernetes, la configuracion no deberia quedar incrustada a fuego dentro de l
 
 <br>
 
-<img src="../img/05_Configuracion_Basica/teo00.png" alt="ConfigMap y Secret en Kubernetes" width="1000">
+<img src="../img/06_Configuracion_Basica/teo00.png" alt="ConfigMap y Secret en Kubernetes" width="1000">
 
 <br>
 

@@ -8,12 +8,13 @@
 - [📘 00 - Prerrequisitos](00_Prerrequisitos/README.md)
 - [📘 01 - Fundamentos del cluster](01_Fundamentos/README.md)
 - [📘 02 - Operacion diaria con kubectl](02_Kubectl_Operacion/README.md)
-- [📘 03 - Primeros deployments y servicios](03_Workloads_Basicos/README.md)
-- [📘 04 - Services y exposicion basica](04_Services_Exposicion/README.md)
-- [📘 05 - Configuracion basica](05_Configuracion_Basica/README.md)
-- [📘 06 - Almacenamiento basico](06_Almacenamiento_Basico/README.md)
-- [📘 07 - Debug operativo inicial](07_Debug_Operativo/README.md)
-- [🧩 08 - Repaso integrador](08_Repaso_Integrador/README.md)
+- [📘 03 - Despliegues imperativos](03_Workloads_Basicos/README.md)
+- [📘 04 - Despliegues declarativos](04_Workloads_Declarativos/README.md)
+- [📘 05 - Services y exposicion basica](05_Services_Exposicion/README.md)
+- [📘 06 - Configuracion basica](06_Configuracion_Basica/README.md)
+- [📘 07 - Almacenamiento basico](07_Almacenamiento_Basico/README.md)
+- [📘 08 - Debug operativo inicial](08_Debug_Operativo/README.md)
+- [🧩 09 - Repaso integrador](09_Repaso_Integrador/README.md)
 - [🗂️ Indice de conceptos](Conceptos/README.md)
 
 ## Descripcion general
@@ -33,7 +34,7 @@ Estructura de los bloques regulares:
 1. Teoria para entender el tema con apoyo visual.
 2. Practica guiada para ejecutar paso a paso y observar.
 
-El bloque final `08 - Repaso integrador` agrupa escenarios largos para consolidar lo aprendido.
+El bloque final `09 - Repaso integrador` agrupa escenarios largos para consolidar lo aprendido.
 
 Formato visual de este modulo:
 
@@ -58,8 +59,9 @@ Al terminar este modulo deberias poder:
 - validar un entorno WSL listo para Kubernetes
 - validar salud de cluster y nodos
 - inspeccionar recursos y diagnosticar problemas iniciales
-- desplegar una app basica y exponerla internamente
-- operar cambios simples en una app
+- desplegar una app basica con comandos directos
+- describir un workload basico en YAML y aplicarlo
+- exponer y escalar una app simple cuando toque
 
 ## Resumen del modulo
 
@@ -68,12 +70,13 @@ Al terminar este modulo deberias poder:
 | 00 - Prerrequisitos | Base del entorno y primer cluster | [Abrir](00_Prerrequisitos/README.md) |
 | 01 - Fundamentos del cluster | Contexto, nodos, namespaces, pods y API | [Abrir](01_Fundamentos/README.md) |
 | 02 - Operacion diaria con kubectl | Lectura rapida con `kubectl` | [Abrir](02_Kubectl_Operacion/README.md) |
-| 03 - Primeros deployments y servicios | `Deployment`, `ReplicaSet`, `Pod` y `Service` | [Abrir](03_Workloads_Basicos/README.md) |
-| 04 - Services y exposicion basica | `Service`, `ClusterIP` y endpoints | [Abrir](04_Services_Exposicion/README.md) |
-| 05 - Configuracion basica | `ConfigMap`, `Secret` y variables de entorno | [Abrir](05_Configuracion_Basica/README.md) |
-| 06 - Almacenamiento basico | `PV`, `PVC` y `StorageClass` | [Abrir](06_Almacenamiento_Basico/README.md) |
-| 07 - Debug operativo inicial | `logs`, `describe`, `events` y reinicio controlado | [Abrir](07_Debug_Operativo/README.md) |
-| 08 - Repaso integrador | Escenarios largos de consolidacion | [Abrir](08_Repaso_Integrador/README.md) |
+| 03 - Despliegues imperativos | Crear y escalar una app con comandos directos | [Abrir](03_Workloads_Basicos/README.md) |
+| 04 - Despliegues declarativos | YAML, `apply` y estado deseado | [Abrir](04_Workloads_Declarativos/README.md) |
+| 05 - Services y exposicion basica | `Service`, `ClusterIP` y `EndpointSlice` | [Abrir](05_Services_Exposicion/README.md) |
+| 06 - Configuracion basica | `ConfigMap`, `Secret` y variables de entorno | [Abrir](06_Configuracion_Basica/README.md) |
+| 07 - Almacenamiento basico | `PV`, `PVC` y `StorageClass` | [Abrir](07_Almacenamiento_Basico/README.md) |
+| 08 - Debug operativo inicial | `logs`, `describe`, `events` y reinicio controlado | [Abrir](08_Debug_Operativo/README.md) |
+| 09 - Repaso integrador | Escenarios largos de consolidacion | [Abrir](09_Repaso_Integrador/README.md) |
 
 ## Apoyo conceptual
 

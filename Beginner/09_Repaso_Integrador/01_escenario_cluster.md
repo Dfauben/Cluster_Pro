@@ -1,4 +1,4 @@
-# Beginner 08 - Escenario 01: fotografia completa del cluster
+# Beginner 09 - Escenario 01: fotografia completa del cluster
 
 
 ## Navegacion

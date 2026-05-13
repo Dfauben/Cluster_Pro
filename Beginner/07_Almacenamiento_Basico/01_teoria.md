@@ -1,4 +1,4 @@
-# Beginner 06 - Almacenamiento basico
+# Beginner 07 - Almacenamiento basico
 
 
 ## Navegacion
@@ -13,7 +13,7 @@ Los pods no son un lugar seguro para guardar datos que deban sobrevivir a un rei
 
 <br>
 
-<img src="../img/06_Almacenamiento_Basico/teo00.png" alt="Almacenamiento persistente en Kubernetes" width="1000">
+<img src="../img/07_Almacenamiento_Basico/teo00.png" alt="Almacenamiento persistente en Kubernetes" width="1000">
 
 <br>
 

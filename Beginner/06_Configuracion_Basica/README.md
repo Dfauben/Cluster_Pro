@@ -1,11 +1,11 @@
-# Beginner 05 - Configuracion basica
+# Beginner 06 - Configuracion basica
 
 ## Navegacion
 
 - [🏠 Inicio del repositorio](../../README.md)
 - [📘 Inicio de Beginner](../README.md)
-- [⬅️ Anterior: 04 - Services y exposicion basica](../04_Services_Exposicion/README.md)
-- [➡️ Siguiente: 06 - Almacenamiento basico](../06_Almacenamiento_Basico/README.md)
+- [⬅️ Anterior: 05 - Services y exposicion basica](../05_Services_Exposicion/README.md)
+- [➡️ Siguiente: 07 - Almacenamiento basico](../07_Almacenamiento_Basico/README.md)
 
 ## Contenidos
 

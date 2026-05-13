@@ -1,4 +1,4 @@
-# Beginner 08 - Escenario 02: aplicacion expuesta y configurada
+# Beginner 09 - Escenario 02: aplicacion expuesta y configurada
 
 
 ## Navegacion
@@ -11,22 +11,19 @@
 
 ## Contexto
 
-Te dejan una aplicacion sencilla ya desplegada en el cluster. Debes comprobar que entiendes como se ejecuta, como se expone y como recibe configuracion sin rehacer la imagen.
+Te dejan una aplicacion sencilla ya desplegada en el cluster. La pista inicial es que la app base se llama `hello-k8s`. Debes comprobar que entiendes como se ejecuta, como se expone y como recibe configuracion sin crear nada nuevo.
 
 ## Estado existente
 
-- un `Deployment` funcional
-- un `Service` interno que apunta a la aplicacion
-- un `ConfigMap` con valores no sensibles
-- un `Secret` con valores sensibles
-- pods levantados y en estado estable
+- recursos ya creados en los bloques anteriores
 
 ## Tarea
 
-- localizar el `Deployment`
-- localizar los `Pods`
-- localizar el `Service`
+- localizar el `Deployment` principal de la aplicacion
+- localizar los `Pods` que estan detras del `Service`
+- localizar el `Service` que da acceso estable
 - comprobar la relacion entre `Service` y `Pods`
+- localizar el `ConfigMap` y el `Secret`
 - verificar que la configuracion entra al pod
 - explicar como cambiar el numero de replicas sin romper el acceso
 
@@ -35,8 +32,9 @@ Te dejan una aplicacion sencilla ya desplegada en el cluster. Debes comprobar qu
 1. el nombre del `Deployment`
 2. el `Service` que da acceso estable
 3. los `Pods` que estan detras del service
-4. la evidencia de que la configuracion externa llega al pod
-5. una explicacion corta de que cambia y que no cambia al escalar
+4. el `ConfigMap` y el `Secret` que encontraste
+5. la evidencia de que la configuracion externa llega al pod
+6. una explicacion corta de que cambia y que no cambia al escalar
 
 ## Criterio de salida
 

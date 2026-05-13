@@ -1,4 +1,4 @@
-# Beginner 08 - Escenario 03: diagnostico de una app que no arranca
+# Beginner 09 - Escenario 03: diagnostico de una app que no arranca
 
 
 ## Navegacion
@@ -11,18 +11,18 @@
 
 ## Contexto
 
-Te dan una aplicacion que no termina de arrancar del todo. No te piden rehacerla: te piden diagnosticarla con orden y decidir si reiniciar ayuda o no.
+Te dan una aplicacion que no termina de arrancar del todo. La pista inicial es que el deployment a diagnosticar es `hello-declarativo`. No te piden rehacerla: te piden diagnosticar un `Deployment` ya existente cuando esta en estado anomalo y decidir si reiniciar ayuda o no.
 
 ## Estado existente
 
-- un `Deployment` creado
+- un `Deployment` ya creado
 - pods del workload con estado anomalo o no estable
 - logs disponibles
 - eventos disponibles
 
 ## Tarea
 
-- sacar la primera pista con logs
+- sacar la primera pista con logs del pod afectado
 - revisar el estado del pod con describe
 - usar events si sigue faltando contexto
 - decidir si un reinicio tiene sentido
@@ -36,7 +36,8 @@ Te dan una aplicacion que no termina de arrancar del todo. No te piden rehacerla
 
 ## Criterio de salida
 
-Si puedes seguir el orden correcto, identificar la causa util y decidir con criterio si reiniciar aporta algo, el escenario esta resuelto.
+Si puedes seguir el orden correcto, identificar la causa util y decidir con criterio si reiniciar aporta algo sobre el recurso ya existente, el escenario esta resuelto.
+
 <br>
 
 ## ➡️ Siguiente

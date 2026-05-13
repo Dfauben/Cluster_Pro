@@ -1,11 +1,11 @@
-# Beginner 07 - Debug operativo inicial
+# Beginner 08 - Debug operativo inicial
 
 ## Navegacion
 
 - [🏠 Inicio del repositorio](../../README.md)
 - [📘 Inicio de Beginner](../README.md)
-- [⬅️ Anterior: 06 - Almacenamiento basico](../06_Almacenamiento_Basico/README.md)
-- [➡️ Siguiente: 08 - Repaso integrador](../08_Repaso_Integrador/README.md)
+- [⬅️ Anterior: 07 - Almacenamiento basico](../07_Almacenamiento_Basico/README.md)
+- [➡️ Siguiente: 09 - Repaso integrador](../09_Repaso_Integrador/README.md)
 
 ## Contenidos
 
@@ -17,4 +17,3 @@
 ## Proposito
 
 Aprender troubleshooting minimo para operacion diaria.
-
